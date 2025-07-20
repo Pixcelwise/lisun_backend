@@ -11,7 +11,7 @@ const app = express();
 
 // ✅ CORRECT CORS CONFIGURATION
 app.use(cors({
-  origin: 'https://lisun-frontend.vercel.app',  
+  origin: 'https://lisun-frontend-2.vercel.app',  
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
